@@ -2,9 +2,126 @@
 
 
 
-/*  spacing   */
+/*  -------Tables -------- */
 
 .datatable {
-	width: 600px;
+	width: 100%;
+	height: 100px;
+    border-collapse: separate;
+    border-spacing: 0px;
 
-/*  font   */
+}
+
+
+
+.rows td {
+	border-bottom:  solid lightgrey 1px;
+
+}
+
+.rows th {
+	border-bottom:  solid lightgrey 1px;
+	
+}
+
+/*  --------Stats-----------  */
+
+
+.stats td{
+	width: 100px;
+	/*margin: 50px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top:  solid lightgrey 1px;
+	border-bottom:  solid lightgrey 1px;
+
+}
+
+.number {
+	font-size: 40px;
+	font-weight: 100px;
+	font-family: arial;
+	text-align: center;
+}
+
+.description{
+	font-size: 13px;
+	font-weight: 100px;
+	font-family: Geneva;
+	color: lightgrey;
+	text-align: center;
+}
+
+
+/* --------    BAR chart    ----------*/
+
+.chart tr td div{
+	background-color: lightskyblue;
+	border-radius: 3px;
+
+}
+
+
+
+/*
+.percent {
+	background-color: lightblue;
+	color: white;
+}
+.tile td div{
+	width: 99%;
+
+}
+
+javascript{
+	background-color: lightskyblue;
+	color: white;
+	width: 99%;
+}
+.ruby {
+	background-color: lightskyblue;
+	color: white;
+	width: 57.1%;
+}
+
+*/
+
+/* ---------    lightbox    ----------   */ 
+
+.graybox {
+	position: relative;
+	width: 900px;
+	height: 500px;
+	background-color: gray;
+
+}
+
+
+.whitebox {
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	background-color: white;
+	top: 100px;
+	left: 125px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+
+
+
+.whitebox a {
+	position: absolute;
+	width: 75px;
+	height: 25px;
+	background-color: pink;
+	border-radius: 5px;
+	color: white;
+	padding-top: 5px;
+	padding-left: 25px;
+	top: 215px;
+	left: 350px;
+
+
+}
