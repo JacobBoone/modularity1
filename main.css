@@ -1,17 +1,10 @@
-/* ADD YOUR STYLES HERE */
-
-.instructions-container {
-	margin: 20px auto;
-	max-width: 800px;
-}
-
-/*   FONT   */
-
-.instruction-answer {
-	margin-bottom: 100px;
-	overflow: hidden;
-}
+/* ADD YOUR STYLES HERE - CHANGE2*/
 
 
 
-/*   Spacing   */
+/*  spacing   */
+
+.datatable {
+	width: 600px;
+
+/*  font   */
