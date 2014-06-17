@@ -9,19 +9,14 @@
 	height: 100px;
     border-collapse: separate;
     border-spacing: 0px;
-
 }
-
-
 
 .rows td {
 	border-bottom:  solid lightgrey 1px;
-
 }
 
 .rows th {
 	border-bottom:  solid lightgrey 1px;
-	
 }
 
 /*  --------Stats-----------  */
@@ -34,7 +29,6 @@
 	padding-bottom: 20px;
 	border-top:  solid lightgrey 1px;
 	border-bottom:  solid lightgrey 1px;
-
 }
 
 .number {
@@ -54,14 +48,15 @@
 
 
 /* --------    BAR chart    ----------*/
+
 .chart {
 	width: 100%;
 }
 
 .chart th {
 	width: 100px;
-
 }
+
 .chart tr td div{
 	background-color: #5488d9;
 	border-radius: 0 5px 5px 0;
@@ -72,14 +67,11 @@
 	padding-top: 3px;
 	font-family: arial;
 	font-size: 14px;
-
 }
 
 .title {
 	text-align: right;
-
 }
-
 
 
 /* ---------    lightbox    ----------   */ 
@@ -89,9 +81,7 @@
 	width: 900px;
 	height: 500px;
 	background-color: gray;
-
 }
-
 
 .whitebox {
 	position: absolute;
@@ -104,9 +94,6 @@
 	padding: 10px;
 }
 
-
-
-
 .whitebox a {
 	position: absolute;
 	width: 75px;
@@ -118,6 +105,45 @@
 	padding-left: 25px;
 	top: 215px;
 	left: 350px;
+}
+/*   ----------     MEdia BLocks  -------------    */
 
+
+
+
+.mblockone {
+	display: inline-block;
+	vertical-align: right;
+	width: 91%;
+}
+
+.mblocktwo-img {
+	display: inline-block;
 
 }
+
+.mblocktwo {
+	display: inline-block;
+	vertical-align: right;
+	/*margin-left: 45px;*/
+	width: 92%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
