@@ -54,37 +54,33 @@
 
 
 /* --------    BAR chart    ----------*/
+.chart {
+	width: 100%;
+}
 
+.chart th {
+	width: 100px;
+
+}
 .chart tr td div{
-	background-color: lightskyblue;
-	border-radius: 3px;
-
-}
-
-
-
-/*
-.percent {
-	background-color: lightblue;
+	background-color: #5488d9;
+	border-radius: 0 5px 5px 0;
+	margin-left: 10px;
 	color: white;
-}
-.tile td div{
-	width: 99%;
+	height: 18px;
+	text-indent: 4px;
+	padding-top: 3px;
+	font-family: arial;
+	font-size: 14px;
 
 }
 
-javascript{
-	background-color: lightskyblue;
-	color: white;
-	width: 99%;
-}
-.ruby {
-	background-color: lightskyblue;
-	color: white;
-	width: 57.1%;
+.title {
+	text-align: right;
+
 }
 
-*/
+
 
 /* ---------    lightbox    ----------   */ 
 
