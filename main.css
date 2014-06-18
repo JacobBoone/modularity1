@@ -147,23 +147,30 @@
 }
 
 
-.nested-imgtwo {
-	display: inline-block;
-	padding-top: 50px;
 
+.nested-imgtwo {
+	/*display: inline-block;*/
+	padding-top: 65px;
+	float: left;
 
 }
 
+
 .nested-texttwo{
-	/*display: inline-block;*/
-	vertical-align: right;
-	vertical-align: text-top;
-	margin-left: 45px;
+	display: inline-block;
+	/*position: static;
+	vertical-align: right;*/
+	/*vertical-align: text-bottom;
+	/*margin-left: 45px;*/
 	width: 92%;
+	/*height: 20px;*/
 	float: right;
-	/*float: top;*/
-	/*padding-bottom: 100px;*/
-	
+	margin-bottom: 30px;
+	/*top: -40px;
+	float: top;
+	padding-bottom: 50px;
+
+*/	
 }
 
 
