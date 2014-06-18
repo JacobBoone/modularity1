@@ -116,6 +116,7 @@
 	vertical-align: right;
 	width: 91%;
 }
+/*  -- Diff Structure --  */
 
 .mblocktwo-img {
 	display: inline-block;
@@ -130,16 +131,40 @@
 	float: right;
 }
 
+/*    ----- Nested Objects   -------   */
+
+.nested-img{
+	display: inline-block;
+
+}
+
+.nested-text {
+	display: inline-block;
+	vertical-align: right;
+	/*margin-left: 45px;*/
+	width: 92%;
+	float: right;
+}
 
 
+.nested-imgtwo {
+	display: inline-block;
+	padding-top: 50px;
 
 
+}
 
-
-
-
-
-
+.nested-texttwo{
+	/*display: inline-block;*/
+	vertical-align: right;
+	vertical-align: text-top;
+	margin-left: 45px;
+	width: 92%;
+	float: right;
+	/*float: top;*/
+	/*padding-bottom: 100px;*/
+	
+}
 
 
 
